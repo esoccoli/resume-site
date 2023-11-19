@@ -7,6 +7,6 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY app.py .
-COPY Ella_Soccoli_Resume_Mar_2023.pdf .
+COPY Ella_Resume_Nov_2023.pdf .
 
 ENTRYPOINT ["flask", "run", "--host=0.0.0.0", "--port=8080"]
